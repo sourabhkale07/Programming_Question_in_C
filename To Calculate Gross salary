@@ -1,0 +1,28 @@
+// Program to calculate gross salary 
+
+
+#include<stdio.h>
+
+
+int main(){
+    
+    int sal;
+    
+    printf("Enter the salary :");
+    scanf("%d",&sal);
+    
+    float da= 0.4*sal;         // 40% of basic salary
+    float hr= 0.2*sal;            // 20% of basic salary
+    
+    float gross_salary;
+    
+    gross_salary = da + hr + sal;
+    
+    printf("%.2f",gross_salary);
+    
+    
+    
+    
+    return 0;
+    
+}
