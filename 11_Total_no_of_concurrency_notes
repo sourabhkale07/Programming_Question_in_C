@@ -1,0 +1,23 @@
+#include<iostream>
+using namespace std;
+
+
+
+int main(){
+    
+    int c;
+    
+    cout<<"Enter the cast to be withdrawn:"<<endl;
+    cin>>c;
+    
+    int nh = c/100;
+    int nt = (c%50)/10; 
+    
+    int nf = ((c%100)- nt*10)/50;
+    
+    
+    cout<<"Then no of hundred notes:"<<nh<<endl;
+    cout<<"Then no of fifty notes:"<<nf<<endl;
+    cout<<"Then no of ten notes:"<<nt<<endl;
+    
+}
