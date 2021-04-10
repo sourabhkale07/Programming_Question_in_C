@@ -1,0 +1,15 @@
+#include<iostream>
+using namespace std;
+
+int main(){
+    
+    long long int d;
+    cout<<"Enter the distance in kilometer:"<<endl;
+    cin>>d;
+    
+    cout<<d*1000<<" meters"<<endl;
+    cout<<d*1000*3.28<<" feets"<<endl;
+    cout<<d*1000*3.28*12<<" inches"<<endl;
+    cout<<d*1000*100<<" centimeters"<<endl;
+    
+}
