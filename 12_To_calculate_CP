@@ -1,0 +1,23 @@
+#include<iostream>
+using namespace std;
+
+
+
+int main(){
+    
+    int sp;
+    
+    cout<<"Enter total SP of 15 items:"<<endl;
+    cin>>sp;
+    
+    int p;
+    
+    cout<<"Enter profit earned on it:"<<endl;
+    cin>>p;
+    
+    float cp = sp * (100.0/(100+p));
+    
+    cout<<"CP of each item is "<<cp/15.0;
+    
+}
+    
