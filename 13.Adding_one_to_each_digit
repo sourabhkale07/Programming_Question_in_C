@@ -1,0 +1,15 @@
+#include<iostream>
+using namespace std;
+
+
+
+int main(){
+    
+     int a;
+     
+     cout<<"Enter the five digit number:"<<endl;
+     cin>>a;
+     
+     cout<<"resulting number is :"<<a+11111;
+}
+    
