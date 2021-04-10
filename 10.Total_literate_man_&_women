@@ -1,0 +1,27 @@
+#include<iostream>
+using namespace std;
+
+
+
+int main(){
+    
+    int tp = 80000;               // total population
+    int mp = 0.52*80000;         // total men 
+    int wp = 0.48*80000;          // total women
+    
+    int lm = 0.35*mp;           // literate man
+    int im = mp - lm;            // illetrate men = total men - literate man
+    
+    cout<<"The number of illetrate man are :"<<im<<endl;
+    
+    int tl = 0.48*80000;       // total literate people
+    int lw = tl - lm;          // lit women = total literacy - men literacy
+    
+    int iw = wp - lw;         // literate women = total women - literate women
+     
+    
+    cout<<"The number of illetrate women are :"<<iw;
+    
+    
+    
+}
