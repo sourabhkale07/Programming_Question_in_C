@@ -1,0 +1,17 @@
+#include<iostream>
+using namespace std;
+
+int main(){
+    
+    char c;
+    
+    cout<<"Enter the character:"<<endl;
+    cin>>c;
+    
+    if((c >= 0  && c <= 47) ||   (c >= 58 && c <= 64) ||   (c >= 91 && c <= 96) ||  (c >= 123)){            // speacial symbol lies b/w these ASCII values
+        cout<<"Entered character is special symbol"<<endl;
+    }
+    else{
+        cout<<"Entered character is not a special symbol"<<endl;
+    }
+}
