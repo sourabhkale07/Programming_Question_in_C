@@ -1,0 +1,18 @@
+#include<iostream>
+using namespace std;
+
+int main(){
+    
+    char c;
+    
+    cout<<"Enter the character:"<<endl;
+    cin>>c;
+    
+    if(c>96 && c<123){                                        // lower case a = 97 ---- z = 122
+        cout<<"This is a lower case character"<<endl;
+    }
+    else{
+        cout<<"This is not a lower case character"<<endl;
+    }
+    return 0;
+}
